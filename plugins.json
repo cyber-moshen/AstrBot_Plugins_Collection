@@ -1,13 +1,63 @@
 {
+    "astrbot_plugin_meme_manager": {
+        "desc": "支持表情包上传的表情包管理器. 点击帮助查看详细指令与修改.",
+        "author": "anka",
+        "repo": "https://github.com/anka-afk/astrbot_plugin_meme_manager"
+    },
+    "mccloud_command": {
+        "desc": "用于修改插件命令的工具，支持备份和恢复，仅限管理员使用。/cmd 查看帮助",
+        "author": "MC云-小馒头",
+        "repo": "https://github.com/MCYUNIDC/mccloud_command"
+    },
+    "astrbot_plugin_music-search": {
+        "desc": "让你的bot能够搜索歌曲并点歌的插件",
+        "author": "榛子小猹猹",
+        "repo": "https://github.com/Hazellol/astrbot_plugin_music-search"
+    },
+    "astrbot_plugin_wake_enhance": {
+        "desc": "【唤醒增强】让 AstrBot 支持通过正则匹配唤醒机器人、唤醒后持续与机器人对话交互。",
+        "author": "Soulter",
+        "repo": "https://github.com/Soulter/astrbot_plugin_wake_enhance"
+    },
+    "astrbot_plugin_uptime": {
+        "desc": "Uptime bot. 监测所订阅的站点是否可正常访问，异常时发出警报。",
+        "author": "Soulter",
+        "repo": "https://github.com/Soulter/astrbot_plugin_uptime"
+    },
+    "astrbot_plugin_flux": {
+        "desc": "硅基流动文生图-支持OpenAI标准的格式接入，支持Flux.1-dev模型",
+        "author": "七七七七",
+        "repo": "https://github.com/18005575/astrbot_plugin_flux"
+    },
+    "astrbot_plugin_moreVITS ": {
+        "desc": "硅基流动利用用户的参考音频进行文本转语音的功能，测试中音频文件（测试用的.mp3）可用，内置了一个测试用的三月七（填写api就可用）",
+        "author": "达莉娅",
+        "repo": "https://github.com/zhenli12138/astrbot_plugin_moreVITS"
+    },
+    "mccloud_meme_sender": {
+        "desc": "这是一个表情包发送插件，可以识别AI回复中的表情符号并发送对应的表情包。记得看帮助需要配置人格 地址：https://github.com/MCYUNIDC/mccloud_meme_sender",
+        "author": "MC云-小馒头",
+        "repo": "https://github.com/MCYUNIDC/mccloud_meme_sender"
+    },
     "sauceno_search": {
         "desc": "Sauceno搜图插件，使用/搜图 指令搜图",
         "author": "榛子小猹猹",
         "repo": "https://github.com/Hazellol/astrbot_plugin_sauceno"
     },
+    "lottery": {
+        "desc": "抓阄插件，使用/抓阄 指令抓阄，教程https://github.com/MashiroSaber03/lottery",
+        "author": "ましろSaber",
+        "repo": "https://github.com/MashiroSaber03/lottery"
+    },
+    "genshinimpact": {
+        "desc": "原神关键词检测插件，检测到`原神`关键词自动发送一条圣经",
+        "author": "ましろSaber",
+        "repo": "https://github.com/MashiroSaber03/genshinimpact"
+    },
     "astrbot_plugin_blacklist": {
         "desc": "黑名单插件，禁止用户和 AstrBot 交互，适用于 aiocqhttp, gewechat",
-        "author": "大核桃",
-        "repo": "https://github.com/AstrBot-Devs/astrbot_plugin_blacklist"
+        "author": "水蜜桃",
+        "repo": "https://github.com/dahetaoa/AstrBot-ban-Plugins"
     },
     "mccloud_zhipu_img": {
         "desc": "使用智谱AI生成图片。使用 /aimg <提示词> [大小] 生成图片。需要配置哦！",
@@ -24,10 +74,20 @@
         "author": "Soulter",
         "repo": "https://github.com/Soulter/astrbot_plugin_r1_filter"
     },
+    "mccloud_deepseek": {
+        "desc": "可选择是否过滤推理模型的思考内容，仅支持MC云API。购买MC云服务器云电脑可享受免费API不限制支持deepseek-r1 v3模型。https://idc.stay33.cn/  [版本要求 >= v3.4.17]",
+        "author": "MC云-小馒头",
+        "repo": "https://github.com/MCYUNIDC/mccloud_deepseek"
+    },
     "mccloud_site": {
         "desc": "一个集成了网站测试工具的插件，支持网站连通性测试、速度测试、域名查询、端口扫描和网站截图功能。使用/sitehelp查看帮助。",
         "author": "MC云-小馒头",
         "repo": "https://github.com/MCYUNIDC/mccloud_site"
+    },
+    "astrbot_websitetool": {
+        "desc": "mccloud_site的修复版，解决了QQ识别不到的问题。使用说明与mccloud_site一样",
+        "author": "wxgl",
+        "repo": "https://github.com/wxgl/astrbot_websitetool"
     },
     "ai_reminder": {
         "desc": "智能定时任务,可以看做是高级提醒，可以让ai在特定时间执行特定任务,注意禁用原提醒插件",
@@ -38,6 +98,16 @@
         "desc": "一个AI记忆管理插件，可以让ai记住重要的事，记忆读取是ai自己调用的，有时候呆呆的ai不会自己调用，可以多问几次或者人格加上特定提示词,输入 /mem_help 查看记忆管理帮助",
         "author": "kjqwdw",
         "repo": "https://github.com/kjqwer/strbot_plugin_play_sy"
+    },
+    "huanju": {
+        "desc": "欢乐21点游戏插件。输入 /hj help 查看关键词回复帮助。",
+        "author": "kjqwdw",
+        "repo": "https://github.com/kjqwer/astrbot_plugin_game_sy"
+    },
+    "holdem_poker": {
+        "desc": "简单的德州扑克，/poker就可以开玩了",
+        "author": "w33d",
+        "repo": "https://github.com/Last-emo-boy/astrbot_plugin_texas_holdem_poker"
     },
     "astrbot_plugin_essential": {
         "desc": "随机动漫图片、以图搜番、Minecraft服务器、一言、今天吃什么、群早晚安记录、EPIC喜加一。帮助：https://github.com/Soulter/astrbot_plugin_essential",
@@ -133,10 +203,105 @@
         "desc": "为 QQ 官方 API 修改发送消息的链接，可改善消息被屏蔽的现象",
         "author": "ave_mujica-saki",
         "repo": "https://github.com/AstrBot-Devs/qq_official_url_cleaner"
-    }
+    },
     "astrbot_plugin_VITS": {
         "desc": "硅基流动api语音合成",
         "author": "第九位魔神",
         "repo": "https://github.com/cyber-moshen/astrbot_plugin_VITS"
+    },
+    "astrbot_plugin_memes": {
+        "desc": "这是能让机器人随机发表情包的插件，可手动添加表情包，表情包路径在AstrBot/data/meme/下",
+        "author": "LunarMeal",
+        "repo": "https://github.com/LunarMeal/astrbot_plugin_memes"
+    },
+    "astrbot_plugin_ignore_at": {
+        "desc": "让机器人无视QQ的@全体成员,以及提供一个@唤醒机器人的开关",
+        "author": "Cl_Fu",
+        "repo": "https://github.com/clfpwp/astrbot_plugin_ignore_at"
+    },
+    "astrbot_plugin_error_filter": {
+        "desc": "选择是否过滤机器人的错误回复",
+        "author": "LuffyLSX",
+        "repo": "https://github.com/LuffyLSX/astrbot_plugin_error_filter"
+    },
+    "FateTrial_JMdownloader": {
+        "desc": "一个下载JM漫画的插件，请勿用于违法用途",
+        "author": "FateTrial",
+        "repo": "https://github.com/FateTrial/FateTrial_JMdownloader"
+    },
+    "astrbot_plugin_lolicon_image-master": {
+        "desc": "涩图插件2.0基于，原作者rikkamiss插件进行修改，使机器人可以发送R18图片",
+        "author": "FateTrial",
+        "repo": "https://github.com/FateTrial/astrbot_plugin_lolicon_image-master"
+    },
+    "astrbot_plugin_niuniu": {
+        "desc": "牛牛插件，一个污污的小游戏插件，安装后自动启用，发送牛牛菜单获取帮助",
+        "author": "长安某",
+        "repo": "https://github.com/zgojin/astrbot_plugin_niuniu"
+    },
+    "astrbot_plugin_mohoyo_cos": {
+        "desc": "获取米游社社区cos插件，支持LLM自识别",
+        "author": "Cvandia",
+        "repo": "https://github.com/Cvandia/astrbot_plugin_mohoyo_cos"
+    },
+    "astrbot_plugin_customT2I": {
+        "desc": "用于在 astrbot 中切换和管理自定义模板",
+        "author": "buding",
+        "repo": "https://github.com/zouyonghe/astrbot_plugin_customT2I"
+    },
+    "astrbot_plugin_anti_porn": {
+        "desc": "用于astrbot的反瑟瑟插件",
+        "author": "buding",
+        "repo": "https://github.com/zouyonghe/astrbot_plugin_anti_porn"
+    },
+    "FateTrial_zhipu_video": {
+        "desc": "智谱AI视频生成插件",
+        "author": "FateTrial",
+        "repo": "https://github.com/FateTrial/FateTrial_zhipu_video"
+    },
+    "astrbot_plugin_tagger": {
+        "desc": "识别图片并生成AI绘画tag标签",
+        "author": "yudengghost",
+        "repo": "https://github.com/yudengghost/astrbot_plugin_tagger"
+    },
+    "astrbot_plugin_RG": {
+        "desc": "俄罗斯轮盘，群小游戏插件，通过装填[可带参数]、射爆，等指令控制，具体可看说明文档",
+        "author": "长安某",
+        "repo": "https://github.com/zgojin/astrbot_plugin_RG"
+    },
+    "astrbot_plugin_token_calculator": {
+        "desc": "计算并显示每次对话消耗的token，部分provider可用",
+        "author": "rinen0721",
+        "repo": "https://github.com/rinen0721/astrbot_plugin_token_calculator"
+    },
+    "astrbot_plugin_qna": {
+        "desc": "自动识别群聊提问并解答",
+        "author": "buding",
+        "repo": "https://github.com/zouyonghe/astrbot_plugin_qna"
+    },
+    "astrbot_plugin_waiter": {
+        "desc": "用于开发者的对话管理插件",
+        "author": "Cvandia",
+        "repo": "https://github.com/Cvandia/astrbot_plugin_waiter"
+    },
+    "astrbot_plugin_public_servant": {
+        "desc": "帮助考公人随时背书的插件(?)",
+        "author": "yudengghost",
+        "repo": "https://github.com/yudengghost/astrbot_plugin_public_servant"
+    },
+    "astrbot_plugin_comfyui": {
+        "desc": "利用 LLM 的 function-calling 功能，调用本地启动的 ComfyUI 服务实现文生图功能",
+        "author": "fanfanfan",
+        "repo": "https://github.com/yuan199696/astrbot_plugin_comfyui"
+    },
+    "astrbot_plugin_for_sd_webui": {
+        "desc": "使用/draw调用本地（127.0.0.1）的stable diffusion进行文生图",
+        "author": "xiewoc",
+        "repo": "https://github.com/xiewoc/astrbot_plugin_for_sd_webui"
+    },
+    "astrbot_plugin_STT": {
+        "desc": "基于硅基流动的语音识别并回复",
+        "author": "第九位魔神",
+        "repo": "https://github.com/cyber-moshen/astrbot_plugin_STT"
     }
 }
